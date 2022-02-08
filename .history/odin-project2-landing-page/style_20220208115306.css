@@ -1,0 +1,162 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+.container1,
+footer {
+    background-color: #1F2937;
+}
+
+.container2,
+.container4 {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 120px;
+}
+
+header>span {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header>ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+
+header a {
+    text-decoration: none;
+    color: #9c9c9c;
+}
+
+.container1 {
+    display: flex;
+    flex: 1;
+    padding: 60px 120px;
+}
+
+.container1 h2 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.container1 p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.placeholder {
+    background-color: #9c9c9c;
+    width: 50%;
+    flex-shrink: 0;
+    margin-left: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 3px solid #1F2937;
+    padding: 6px 20px;
+}
+
+.container2 {
+    padding: 12px 120px 60px 120px;
+}
+
+.container2 h3 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.boxContainer {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes p {
+    text-align: center;
+    width: 100px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+}
+
+.container3 {
+    background-color: #E5E7EB;
+    padding: 60px 120px;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+    padding: 0 60px;
+}
+
+.container3 p {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 0;
+    padding-right: 80px;
+}
+
+.container4 {
+    padding: 60px 120px;
+}
+
+.blueBox {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.blueBox h4 {
+    margin: 0;
+}
+
+.blueBox p {
+    margin: 0;
+}
+
+.container4 button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border: 3px solid #E5E7EB;
+    flex-shrink: 0;
+    padding: 6px 20px;
+}

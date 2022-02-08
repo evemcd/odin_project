@@ -1,0 +1,34 @@
+body {
+    font-family: roboto, sans-serif;
+}
+
+header,
+.container1,
+footer {
+    background-color: #1F2937;
+}
+
+.container2,
+.container4 {
+    background-color: white;
+}
+
+.container3 {
+    background-color: #E5E7EB;
+}
+
+header>span {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.container1 h2 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.container1 p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
