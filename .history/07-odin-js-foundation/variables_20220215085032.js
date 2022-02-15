@@ -1,12 +1,12 @@
 let message;                // variable is declared
 message = 'Hello';          // assigns data to the variable
-//alert(message);             // popup alert with the contents of message
+alert(message);             // popup alert with the contents of message
 
 let message1 = 'Hello';     //declares and assigns at the same time
 let user = 'John', age = 25, message2 = 'Hello';        //declare multiple variables, not recommended due to poor readability
 
 message = 'World';          // reassigns data
-//alert(message);             //will give two popups one after the other
+alert(message);             //will give two popups one after the other
 
 let word = 'this';
 //let word = 'that';        //would trigger a SyntaxError, can't declare the same variable twice
@@ -26,10 +26,5 @@ const COLOR_RED = "#F00";   //it's easier to remember
 
 //TASKS
 let admin;
-let name1;
-name1 = "John";
-admin = name1;
-alert(admin);
-
-let ourPlanet = "Earth";
-let currentVisitor = "John";
+let name;
+name = "John";

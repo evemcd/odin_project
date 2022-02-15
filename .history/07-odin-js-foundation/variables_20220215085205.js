@@ -26,10 +26,7 @@ const COLOR_RED = "#F00";   //it's easier to remember
 
 //TASKS
 let admin;
-let name1;
-name1 = "John";
-admin = name1;
+let name;
+name = "John";
+admin = name;
 alert(admin);
-
-let ourPlanet = "Earth";
-let currentVisitor = "John";

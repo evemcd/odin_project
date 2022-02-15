@@ -32,4 +32,4 @@ admin = name1;
 alert(admin);
 
 let ourPlanet = "Earth";
-let currentVisitor = "John";
+let currentVisitor;
